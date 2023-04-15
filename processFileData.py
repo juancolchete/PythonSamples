@@ -6,6 +6,6 @@ with open('importCode.txt') as f:
     lines = f.readlines()
     for l in lines:
         keyboard.press_and_release("home")
-        time.sleep(0.1)
+        time.sleep(0.500)
         keyboard.write(l)
 print("copied")
